@@ -430,7 +430,7 @@ Shapefiles are described in a link:lehd_shapefiles{ext-relative}[separate docume
 
 [width="90%",format="csv",cols="^1,<3,<8",options="header"]
 |===================================================
-include::/documents/formats/V4.6.0/tmp.bKApbc[]
+include::/documents/formats/V4.6.0/tmp.glBgJF[]
 |===================================================
 
 
@@ -454,7 +454,7 @@ Some parts of the schema use (lower or upper-case) state postal codes.
 
 [width="40%",format="csv",cols="^1,<2",options="header"]
 |===================================================
-include::/documents/formats/V4.6.0/tmp.KhgDmk[]
+include::/documents/formats/V4.6.0/tmp.molPBl[]
 |===================================================
 
 
@@ -554,7 +554,7 @@ A shortened representation of the file is provided below, the complete file is a
 
 [width="90%",format="csv",cols=">1,3*<2,5*<1",options="header"]
 |===================================================
-include::/documents/formats/V4.6.0/tmp.ddihJb[]
+include::/documents/formats/V4.6.0/tmp.HcKeHG[]
 |===================================================
 
 
@@ -597,9 +597,9 @@ The contents contains the following elements:
 include::tmp_variables_version.csv[]
 |===================================================
 
-For instance, the metadata for the R2019Q4 QWI release of
+For instance, the metadata for a recent QWI release of 
 Delaware
-(the latest can be viewed https://lehd.ces.census.gov/data/qwi/R2019Q4/de/version_qwi.txt[here]) has  the following content:
+(the latest can be viewed https://lehd.ces.census.gov/data/qwi/latest_release/de/version_qwi.txt[here]) has the following content:
 --------------------------------
 
 
@@ -607,11 +607,11 @@ QWI_F DE 10 1998:3-2019:1 V4.4.0 R2019Q4 qwipu_de_20191202_1353
 QWI_FA DE 10 1998:3-2017:4 V4.4.0 R2019Q4 qwipu_de_20191202_1353
 QWI_FS DE 10 1998:3-2017:4 V4.4.0 R2019Q4 qwipu_de_20191202_1353
 --------------------------------
-Similarly, the metadata for the R2018Q2 release of
+Similarly, the metadata for a recent release of 
 Delaware J2J
-tabulations (the latest can be viewed https://lehd.ces.census.gov/data/j2j/R2018Q2/de/j2j/version_j2j.txt[here]) has  the following content:
+tabulations (the latest can be viewed https://lehd.ces.census.gov/data/j2j/latest_release/de/j2j/version_j2j.txt[here]) has  the following content:
 --------------------------------
-J2J DE 10 2000:2-2017:2 V4.2.0 R2018Q2 j2jpu_de_20180817_1654
+J2J DE 10 2000:2-2018:1 V4.4.0 R2019Q1 j2jpu_de_20190508_0952
 --------------------------------
 Some J2J metadata may contain multiple lines, as necessary.
 
@@ -660,6 +660,6 @@ For a description of how schema files are versioned, see link:../VERSIONING{ext-
 
 <<<
 *******************
-This revision: Tue Jan 21 19:14:41 UTC 2020
+This revision: Tue Jan 21 19:52:45 UTC 2020
 *******************
 
