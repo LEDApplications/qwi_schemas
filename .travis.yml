@@ -1,0 +1,49 @@
+dist: xenial
+
+addons:
+  apt:
+    packages:
+      - libtext-multimarkdown-perl
+
+sudo: required
+
+services:
+  - docker                  
+
+# safelist
+branches:
+  only:
+  - master
+  - lehd-deploy
+  - V4.4.0.2-dev
+  
+before_install:            
+  - mkdir -p output
+  - docker pull asciidoctor/docker-asciidoctor
+
+script:
+  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor /documents/process_latest.sh  $TRAVIS_BRANCH    
+  - $TRAVIS_BUILD_DIR/create_index.sh $TRAVIS_BRANCH  
+
+after_error: 
+  - docker logs asciidoc-to-html
+
+after_failure:
+  - docker logs asciidoc-to-html
+
+
+deploy:
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    target-branch: gh-pages
+    on:
+      branch: master
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    target-branch: lehd
+    on:
+      branch: lehd-deploy
