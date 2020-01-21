@@ -1,5 +1,5 @@
 = LEHD Public Use Shapefile Data
-<Patrick.Hayward@census.gov>
+<ces.qwi.feedback@census.gov>
 21 January 2020
 :ext-relative: {outfilesuffix}
 ( link:lehd_shapefiles.pdf[Printable version] )
@@ -11,7 +11,7 @@
 ==============================================
 This specification is draft. Feedback is welcome. 	
 Please write us at
-link:mailto:Patrick.Hayward@census.gov?subject=LEHD_Shapefiles[Patrick.Hayward@census.gov].
+link:mailto:ces.qwi.feedback@census.gov?subject=LEHD_Shapefiles[ces.qwi.feedback@census.gov].
 ==============================================
 
 
@@ -35,7 +35,7 @@ New TIGER/Line shapefiles are typically released by the Census Bureau's Geograph
 
 Sources
 -------
-Files are derived from   https://www.census.gov/geo/maps-data/data/tiger-line.html[TIGER/Line 2018 shapefiles]:
+Files are derived from   https://www.census.gov/geo/maps-data/data/tiger-line.html[TIGER/Line 2019 shapefiles]:
 
 * https://www2.census.gov/geo/tiger/TIGER2019/STATE/[tl_2019_us_state]
 * https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/[tl_2019_us_county]
@@ -146,11 +146,13 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 * MINOR version when you add functionality in a backwards-compatible
 manner, and
 * PATCH version when you make backwards-compatible bug fixes.
-________________________________________________________________________________== [[changes]] Changes
+________________________________________________________________________________
+
+== [[changes]] Changes
 For a description of how schema files are versioned, see link:../VERSIONING{ext-relative}[main directory].
 
 === This version (revisions)
-- 2019-01-21: Initial release
+- 2020-01-21: Initial release
 
 === Version 4.6.0 from 4.4.0
 - Underlying geovintage updated to reflect 2019 census geography
@@ -161,6 +163,6 @@ For a description of how schema files are versioned, see link:../VERSIONING{ext-
 
 <<<
 *******************
-This revision: Tue Jan 21 16:26:47 UTC 2020
+This revision: Tue Jan 21 19:04:03 UTC 2020
 *******************
 

@@ -1,5 +1,5 @@
 = LEHD Public Use  Schema V4.6.0 - File and Directory Naming Convention
-<>
+<ces.qwi.feedback@census.gov>
 21 January 2020
 :ext-relative: {outfilesuffix}
 
@@ -210,7 +210,7 @@ include::naming_ext.csv[]
 For a description of how schema files are versioned, see link:../VERSIONING{ext-relative}[main directory].
 
 === This version (revisions)
-- 2019-01-21: Initial release
+- 2020-01-21: Initial release
 
 === Version 4.6.0 from 4.4.0
 - Underlying geovintage updated to reflect 2019 census geography
@@ -226,6 +226,6 @@ Some of the data products noted above do not exist yet.
 
 <<<
 *******************
-This revision: Tue Jan 21 16:26:37 UTC 2020
+This revision: Tue Jan 21 19:03:53 UTC 2020
 *******************
 
